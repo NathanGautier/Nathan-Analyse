@@ -1,0 +1,48 @@
+@startuml infra
+node node [
+
+Rouge = Envoie de log
+
+----
+
+Vert =Reçoie et Envoie des requête 
+
+]
+cloud Clever_cloud{
+    rectangle Otoroshi as oto
+    database Mongodb as mongo
+    node Microservice1 as ms1
+    node Microservice2 as ms2
+    node Microservice3 as ms3
+    node Serveur_de_log as log
+    cloud Api+ClientStatique{
+        interface  FrontOffice as fo
+        interface  BackOffice as bo
+    }
+}
+
+Actor User as us
+
+ms1 -[#red]-> log : Envoie des log
+ms2 -[#red]-> log
+ms3 --[#red]> log
+oto-[#red]-> log 
+bo -[#red]-> log 
+fo -[#red]-> log 
+
+mongo -[#green]-> oto
+
+oto <-[#green]-> ms1
+
+oto <-[#green]-> ms2 
+
+oto <-[#green]-> ms3
+
+oto <-[#green]-> us
+
+oto <-[#green]-> fo
+
+oto <-[#green]-> bo
+
+
+@enduml
