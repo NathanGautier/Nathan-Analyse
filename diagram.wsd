@@ -15,17 +15,34 @@ Noir = Outgoing flux
 
 Orange = Load Balancing
 
+----
+
+ntb: The path to each "service" arent correct,
+the "api" in the client part isn't gonna be cut aside from the Api B2B
+We need to make a use case diagram in order to smooth the operation
+And to be sur of the exact uttility of everything
+We also can group the Client inside the Api and add endpoint \n
+who's gonna serve the static content (or not if we chose server side rendering)
+I also need to experiment a lot with orochi in order to use it more accurately 
 ]
 cloud Clever_cloud{
-    rectangle "Otoroshi\nReverse Proxy\nWebAuth(JWT)\nAnd more" as oto
-    database Mongodb as mongo
-    node "Api B2B 1 " as ms1
-    node "Api B2B 2" as ms2
-    node Microservice3 as ms3
-    node Serveur_de_log as log
-    cloud "Api + Static content or no"{
-        interface  FrontOffice as fo
-        interface  BackOffice as bo
+    node "lplr.cloud"{
+        rectangle "Otoroshi\nReverse Proxy\nWebAuth(JWT)\nAnd more" as oto
+        database Mongodb as mongo
+        node "Api.lplr.cloud"{
+            node "Api B2B 1 " as ms1
+            node "Api B2B 2" as ms2
+        }
+        node Microservice3 as ms3
+        node Serveur_de_log as log
+        cloud "Api + Static content or no"{
+            node "App.lplr.cloud"{
+                interface  FrontOffice as fo
+            }
+            node "Admin.lplr.cloud"{
+                interface  BackOffice as bo
+            }
+        }
     }
 }
 node The_World as us{
