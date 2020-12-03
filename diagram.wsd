@@ -1,15 +1,15 @@
 @startuml infra
 node node [
 
-Rouge = Envoie de log
+Rouge = Send of Log
 
 ----
 
-Vert =Reçoie et Envoie des requête 
+Vert = Send/Receive of request
 
 ----
 
-Noir = Flux sortant
+Noir = Outgoing flux
 
 ----
 
@@ -17,13 +17,13 @@ Orange = Load Balancing
 
 ]
 cloud Clever_cloud{
-    rectangle Otoroshi as oto
+    rectangle "Otoroshi\nReverse Proxy\nWebAuth(JWT)\nAnd more" as oto
     database Mongodb as mongo
     node "Api B2B 1 " as ms1
     node "Api B2B 2" as ms2
     node Microservice3 as ms3
     node Serveur_de_log as log
-    cloud "Api + Client Statique ou non"{
+    cloud "Api + Static content or no"{
         interface  FrontOffice as fo
         interface  BackOffice as bo
     }
@@ -35,14 +35,14 @@ node The_World as us{
 }
 
 
-ms1 -[#red]-> log : Envoie des log
+ms1 -[#red]-> log : Send of log
 ms2 -[#red]-> log
 ms3 --[#red]> log
 oto-[#red]-> log 
 bo <-[#red]-> log 
 fo -[#red]-> log 
 
-mongo -[#green]-> oto
+mongo -[#green]-> oto :Only accessible by the member\n of the recognized service
 
 oto <-[#Orange]-> ms1 : Load Balancing
 
@@ -50,7 +50,7 @@ oto <-[#Orange]-> ms2
 
 oto <-[#green]-> ms3
 
-oto <=[#black]=> us : Acces hors de l'infra
+oto <=[#black]=> us : Access outside of the authentified part
 
 oto <-[#green]-> fo
 
