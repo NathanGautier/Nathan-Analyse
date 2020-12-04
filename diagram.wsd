@@ -62,9 +62,7 @@ fo -[#red]-> log
 mongo -[#green]-> ms1
 mongo -[#green]-> ms2
 
-oto <-[#Orange]-> ms1 : Load Balancing
-
-oto <-[#Orange]-> ms2 
+oto <-[#Orange]-> api : Load Balancing
 
 oto <-[#green]-> ms3
 
