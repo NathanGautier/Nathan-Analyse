@@ -29,12 +29,12 @@ cloud Clever_cloud{
     node "lplr.cloud"{
         rectangle "Otoroshi\nReverse Proxy\nWebAuth(JWT)\nAnd more" as oto
         database Mongodb as mongo
-        node "Api.lplr.cloud"{
+        node "Api.lplr.cloud" as api{
             node "Api B2B 1 " as ms1
             node "Api B2B 2" as ms2
         }
-        node Microservice3 as ms3
-        node Serveur_de_log as log
+        
+        node "Serveur de log" as log
         cloud "Api + Static content or no"{
             node "App.lplr.cloud"{
                 interface  FrontOffice as fo
@@ -45,6 +45,7 @@ cloud Clever_cloud{
         }
     }
 }
+node "Authentification" as ms3
 node The_World as us{
     Actor BusinessUser as bu
     Actor AdminUser as au
@@ -54,12 +55,12 @@ node The_World as us{
 
 ms1 -[#red]-> log : Send of log
 ms2 -[#red]-> log
-ms3 --[#red]> log
 oto-[#red]-> log 
 bo <-[#red]-> log 
 fo -[#red]-> log 
 
-mongo -[#green]-> oto :Only accessible by the member\n of the recognized service
+mongo -[#green]-> ms1
+mongo -[#green]-> ms2
 
 oto <-[#Orange]-> ms1 : Load Balancing
 
