@@ -1,0 +1,334 @@
+{
+    "User": [
+        {
+            "id": 1,
+            "lastName": "SUIRE",
+            "firstName": "Cyrille",
+            "trigram": "CSu",
+            "isTeacher": true
+        },
+        {
+            "id": 2,
+            "lastName": "LASSUS",
+            "firstName": "Annick",
+            "trigram": "ALa",
+            "isTeacher": true
+        },
+        {
+            "id": 3,
+            "lastName": "GAUTIER",
+            "firstName": "Nathan",
+            "trigram": "NGa",
+            "isTeacher": false
+        },
+        {
+            "id": 4,
+            "lastName": "GIRARD",
+            "firstName": "Alexandre",
+            "trigram": "AGi",
+            "isTeacher": false
+        },
+        {
+            "id": 5,
+            "lastName": "DUPLAIX",
+            "firstName": "Jonathan",
+            "trigram": "JDu",
+            "isTeacher": false
+        },
+        {
+            "id": 6,
+            "lastName": "LERICHE",
+            "firstName": "Maxime",
+            "trigram": "MLe",
+            "isTeacher": false
+        },
+        {
+            "id": 7,
+            "lastName": "RAMBAUD",
+            "firstName": "Dylan",
+            "trigram": "DRa",
+            "isTeacher": false
+        }
+    ],
+    "Type": [
+        {
+            "id": 1,
+            "tag": "TD"
+        },
+        {
+            "id": 2,
+            "tag": "TP"
+        }
+    ],
+    "Speciality": [
+        {
+            "id": 1,
+            "tag": "Anglais"
+        },
+        {
+            "id": 2,
+            "tag": "Divers Cloud"
+        },
+        {
+            "id": 3,
+            "tag": "Cloud IA"
+        },
+        {
+            "id": 4,
+            "tag": "Cloud Agile"
+        },
+        {
+            "id": 5,
+            "tag": "Android"
+        }
+    ],
+    "Activity": [
+        {
+            "id": 1,
+            "tag": "Angl",
+            "goal": "Pratiquer l'anglais",
+            "dateStart": "11/01/2021",
+            "dateEnd": "11/01/2021",
+            "hourStart": "13:30",
+            "hourEnd": "16:30",
+            "idType": 1,
+            "idSpeciality": 1
+        },
+        {
+            "id": 2,
+            "tag": "Divers",
+            "goal": "Profiter du temps libre pour se farcire la rondelle au soleil",
+            "dateStart": "11/01/2021",
+            "dateEnd": "11/01/2021",
+            "hourStart": "09:00",
+            "hourEnd": "12:00",
+            "idType": 2,
+            "idSpeciality": 2
+        },
+        {
+            "id": 3,
+            "tag": "IA",
+            "goal": "Faire un robot post-apocalyptique",
+            "dateStart": "12/01/2021",
+            "dateEnd": "12/01/2021",
+            "hourStart": "08:00",
+            "hourEnd": "12:00",
+            "idType": 1,
+            "idSpeciality": 3
+        },
+        {
+            "id": 4,
+            "tag": "Agile",
+            "goal": "Pouvoir intégrer le concours : Post-it Master",
+            "dateStart": "12/01/2021",
+            "dateEnd": "12/01/2021",
+            "hourStart": "13:30",
+            "hourEnd": "16:30",
+            "idType": 1,
+            "idSpeciality": 4
+        },
+        {
+            "id": 5,
+            "tag": "Android",
+            "goal": "Développer la prochaine version IOS",
+            "dateStart": "13/01/2021",
+            "dateEnd": "13/01/2021",
+            "hourStart": "8:30",
+            "hourEnd": "17:00",
+            "idType": 2,
+            "idSpeciality": 5
+        },
+        {
+            "id": 6,
+            "tag": "IA",
+            "goal": "Développer une IA qui va nous sauver du robot post-apocalyptique",
+            "dateStart": "14/01/2021",
+            "dateEnd": "14/01/2021",
+            "hourStart": "14:00",
+            "hourEnd": "17:00",
+            "idType": 2,
+            "idSpeciality": 3
+        },
+        {
+            "id": 7,
+            "tag": "Divers",
+            "goal": "S'alléger les épaules avant le week-end",
+            "dateStart": "15/01/2021",
+            "dateEnd": "15/01/2021",
+            "hourStart": "9:00",
+            "hourEnd": "12:00",
+            "idType": 1,
+            "idSpeciality": 2
+        }
+    ],
+    "toParticipate": [
+        {
+            "idUser": 1,
+            "idActivity": 1
+        },
+        {
+            "idUser": 3,
+            "idActivity": 1
+        },
+        {
+            "idUser": 4,
+            "idActivity": 1
+        },
+        {
+            "idUser": 5,
+            "idActivity": 1
+        },
+        {
+            "idUser": 6,
+            "idActivity": 1
+        },
+        {
+            "idUser": 7,
+            "idActivity": 1
+        },
+        {
+            "idUser": 2,
+            "idActivity": 2
+        },
+        {
+            "idUser": 3,
+            "idActivity": 2
+        },
+        {
+            "idUser": 4,
+            "idActivity": 2
+        },
+        {
+            "idUser": 5,
+            "idActivity": 2
+        },
+        {
+            "idUser": 6,
+            "idActivity": 2
+        },
+        {
+            "idUser": 7,
+            "idActivity": 2
+        },
+        {
+            "idUser": 1,
+            "idActivity": 3
+        },
+        {
+            "idUser": 3,
+            "idActivity": 3
+        },
+        {
+            "idUser": 4,
+            "idActivity": 3
+        },
+        {
+            "idUser": 5,
+            "idActivity": 3
+        },
+        {
+            "idUser": 6,
+            "idActivity": 3
+        },
+        {
+            "idUser": 7,
+            "idActivity": 3
+        },
+        {
+            "idUser": 2,
+            "idActivity": 4
+        },
+        {
+            "idUser": 3,
+            "idActivity": 4
+        },
+        {
+            "idUser": 4,
+            "idActivity": 4
+        },
+        {
+            "idUser": 5,
+            "idActivity": 4
+        },
+        {
+            "idUser": 6,
+            "idActivity": 4
+        },
+        {
+            "idUser": 7,
+            "idActivity": 4
+        },
+        {
+            "idUser": 1,
+            "idActivity": 5
+        },
+        {
+            "idUser": 3,
+            "idActivity": 5
+        },
+        {
+            "idUser": 4,
+            "idActivity": 5
+        },
+        {
+            "idUser": 5,
+            "idActivity": 5
+        },
+        {
+            "idUser": 6,
+            "idActivity": 5
+        },
+        {
+            "idUser": 7,
+            "idActivity": 5
+        },
+        {
+            "idUser": 1,
+            "idActivity": 6
+        },
+        {
+            "idUser": 3,
+            "idActivity": 6
+        },
+        {
+            "idUser": 4,
+            "idActivity": 6
+        },
+        {
+            "idUser": 5,
+            "idActivity": 6
+        },
+        {
+            "idUser": 6,
+            "idActivity": 6
+        },
+        {
+            "idUser": 7,
+            "idActivity": 6
+        },
+        {
+            "idUser": 2,
+            "idActivity": 7
+        },
+        {
+            "idUser": 3,
+            "idActivity": 7
+        },
+        {
+            "idUser": 4,
+            "idActivity": 7
+        },
+        {
+            "idUser": 5,
+            "idActivity": 7
+        },
+        {
+            "idUser": 6,
+            "idActivity": 7
+        },
+        {
+            "idUser": 7,
+            "idActivity": 7
+        }
+    ]
+}
