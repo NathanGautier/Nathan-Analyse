@@ -1,5 +1,6 @@
+```sql
 create table User (
-    id integer auto_increment,
+    id serial,
     lastName varchar(50),
     firstName varchar(50),
     trigram varchar(10),
@@ -8,19 +9,19 @@ create table User (
 );
 
 create table Type (
-    id integer auto_increment,
+    id serial,
     tag varchar(50),
     PRIMARY KEY (id)
 );
 
 create table Speciality (
-    id integer auto_increment,
+    id serial,
     tag varchar(50),
     PRIMARY KEY (id)
 );
 
 create table Activity (
-    id integer auto_increment,
+    id serial,
     tag varchar(50),
     goal text(1000),
     dateStart char(10),
@@ -41,3 +42,4 @@ create table toParticipate (
     CONSTRAINT fk_toParticipate_User FOREIGN KEY (idUser) REFERENCES User (id),
     CONSTRAINT fk_toParticipate_Activity FOREIGN KEY (idActivity) REFERENCES Activity (id)
 );
+```
