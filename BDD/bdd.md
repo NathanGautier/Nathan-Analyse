@@ -1,5 +1,5 @@
 ```sql
-create table User (
+create table iso_user (
     id serial,
     lastName varchar(50),
     firstName varchar(50),
@@ -8,19 +8,19 @@ create table User (
     PRIMARY KEY (id)
 );
 
-create table Type (
+create table iso_Type (
     id serial,
     tag varchar(50),
     PRIMARY KEY (id)
 );
 
-create table Speciality (
+create table iso_Speciality (
     id serial,
     tag varchar(50),
     PRIMARY KEY (id)
 );
 
-create table Activity (
+create table iso_Activity (
     id serial,
     tag varchar(50),
     goal text(1000),
@@ -35,7 +35,7 @@ create table Activity (
     CONSTRAINT fk_Activity_Speciality FOREIGN KEY (idSpeciality) REFERENCES Speciality (id)
 );
 
-create table toParticipate (
+create table iso_toParticipate (
     idUser integer,
     idActivity integer,
     PRIMARY KEY (idUser, idActivity),
