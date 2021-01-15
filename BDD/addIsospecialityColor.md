@@ -1,8 +1,10 @@
 ###on modifie la table isospeciality pour y ajouter le champ color
+```sql
 ALTER TABLE isospeciality
 ADD color CHAR(7) DEFAULT '#FFFFFF';
-
+```
 ###on met a jour les couleurs
+```sql
 UPDATE isospeciality
 SET color='#00ccff'
 WHERE tag='Anglais';
@@ -22,3 +24,4 @@ WHERE tag='Cloud Agile';
 UPDATE isospeciality
 SET color='#ffcc66'
 WHERE tag='Android';
+```
