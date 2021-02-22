@@ -119,22 +119,38 @@
         {
             "id": 2,
             "idskill": 10,
-            "tag": "Faire émerger un backlog produit"
+            "tag": "Faire émerger un backlog produit",
+            "description": "Faire émerger un backlog produit tout ca tout ca...",
+            "knowledge": "",
+            "know": "",
+            "behaviour": ""
         },
         {
             "id": 3,
             "idskill": 10,
-            "tag": "Préparer et mener une itération"
+            "tag": "Préparer et mener une itération",
+            "description": "Préparer et mener une itération, à la vie à la mort",
+            "knowledge": "",
+            "know": "",
+            "behaviour": ""
         },
         {
             "id": 1,
             "idskill": 11,
-            "tag": "Utiliser un environnement numérique collaboratif"
+            "tag": "Utiliser un environnement numérique collaboratif",
+            "description": "Utiliser un environnement numérique collaboratif pour 5 personnes, pas plus pas moins !",
+            "knowledge": "",
+            "know": "",
+            "behaviour": ""
         },
         {
             "id": 2,
             "idskill": 11,
-            "tag": "Identifier les rôles d'une équipe agile"
+            "tag": "Identifier les rôles d'une équipe agile",
+            "description": "Identifier les rôles d'une équipe agile pour montrer du doigt les plus faible",
+            "knowledge": "",
+            "know": "",
+            "behaviour": ""
         }
     ], 
     "Activity": [
