@@ -1,0 +1,600 @@
+{
+    "User": [
+        {
+            "id": "cyrille.suire@univ-lr.fr",
+            "lastName": "SUIRE",
+            "firstName": "Cyrille",
+            "trigram": "CSu",
+            "icon": ""
+        },
+        {
+            "id": "annick.lassus@univ-lr.fr",
+            "lastName": "LASSUS",
+            "firstName": "Annick",
+            "trigram": "ALa",
+            "icon": ""
+        },
+        {
+            "id": "nathan.gautier@etudiant.univ-lr.fr",
+            "lastName": "GAUTIER",
+            "firstName": "Nathan",
+            "trigram": "NGa",
+            "icon": ""
+        },
+        {
+            "id": "alexandre.girard@etudiant.univ-lr.fr",
+            "lastName": "GIRARD",
+            "firstName": "Alexandre",
+            "trigram": "AGi",
+            "icon": ""
+        },
+        {
+            "id": "jonathan.duplaix@etudiant.univ-lr.fr",
+            "lastName": "DUPLAIX",
+            "firstName": "Jonathan",
+            "trigram": "JDu",
+            "icon": ""
+        },
+        {
+            "id": "maxime.leriche@etudiant.univ-lr.fr",
+            "lastName": "LERICHE",
+            "firstName": "Maxime",
+            "trigram": "MLe",
+            "icon": ""
+        },
+        {
+            "id": "dylan.rambaud@etudiant.univ-lr.fr",
+            "lastName": "RAMBAUD",
+            "firstName": "Dylan",
+            "trigram": "DRa",
+            "icon": ""
+        }
+    ],
+    "Type": [
+        {
+            "id": 1,
+            "tag": "TD"
+        },
+        {
+            "id": 2,
+            "tag": "TP"
+        }
+    ],
+    "Speciality": [
+        {
+            "id": 1,
+            "tag": "Anglais",
+            "color": "#0077b6"
+        },
+        {
+            "id": 2,
+            "tag": "Divers Cloud",
+            "color": "#33ff33"
+        },
+        {
+            "id": 3,
+            "tag": "Cloud IA",
+            "color": "#ffff99"
+        },
+        {
+            "id": 4,
+            "tag": "Cloud Agile",
+            "color": "#3366ff"
+        },
+        {
+            "id": 5,
+            "tag": "Android",
+            "color": "#ffcc66"
+        }
+    ],
+    "Group": [
+        {
+            "id": 1,
+            "tag": "Team Dev"
+        },
+        {
+            "id": 2,
+            "tag": "Team Doc"
+        },
+        {
+            "id": 3,
+            "tag": "Team Test"
+        }
+    ],
+    "Skill": [
+        {
+            "id": 10,
+            "tag": "Mettre en oeuvre une démarche agile"
+        },
+        {
+            "id": 11,
+            "tag": "Mener un travail en équipe dans une approche agile"
+        },
+        {
+            "id": 12,
+            "tag": "Faire un recueil des besoins UX"
+        }
+    ],
+    "LearningItem": [
+        {
+            "id": 1,
+            "idskill": 10,
+            "tag": "Posséder la vision Agile",
+            "description": "Avoir la vision de l'aigle n'a aucun rapport avec la vision Agile...!",
+            "knowledge": "",
+            "know": "",
+            "behaviour": ""
+        },
+        {
+            "id": 2,
+            "idskill": 10,
+            "tag": "Faire émerger un backlog produit",
+            "description": "Faire émerger un backlog produit tout ca tout ca...",
+            "knowledge": "",
+            "know": "",
+            "behaviour": ""
+        },
+        {
+            "id": 3,
+            "idskill": 10,
+            "tag": "Préparer et mener une itération",
+            "description": "Préparer et mener une itération, à la vie à la mort",
+            "knowledge": "",
+            "know": "",
+            "behaviour": ""
+        },
+        {
+            "id": 1,
+            "idskill": 11,
+            "tag": "Utiliser un environnement numérique collaboratif",
+            "description": "Utiliser un environnement numérique collaboratif pour 5 personnes, pas plus pas moins !",
+            "knowledge": "",
+            "know": "",
+            "behaviour": ""
+        },
+        {
+            "id": 2,
+            "idskill": 11,
+            "tag": "Identifier les rôles d'une équipe agile",
+            "description": "Identifier les rôles d'une équipe agile pour montrer du doigt les plus faible",
+            "knowledge": "",
+            "know": "",
+            "behaviour": ""
+        },
+        {
+            "id": 1,
+            "idskill": 12,
+            "tag": "Ecrire 5000 pages sur l'UX appliqué aux micro-services",
+            "description": "Nan je déconne 20 pages ca suffit !",
+            "knowledge": "",
+            "know": "",
+            "behaviour": ""
+        }
+    ], 
+    "Activity": [
+        {
+            "id": 1,
+            "tag": "Angl",
+            "goal": "Pratiquer l'anglais",
+            "dateStart": "11/01/2021",
+            "dateEnd": "11/01/2021",
+            "hourStart": "13:30",
+            "hourEnd": "16:30",
+            "idType": 1,
+            "idSpeciality": 1,
+            "idgroup": 1,
+            "idUser": "cyrille.suire@univ-lr.fr"
+        },
+        {
+            "id": 2,
+            "tag": "Divers",
+            "goal": "Profiter du temps libre pour se farcir la rondelle au soleil",
+            "dateStart": "11/01/2021",
+            "dateEnd": "11/01/2021",
+            "hourStart": "09:00",
+            "hourEnd": "12:00",
+            "idType": 2,
+            "idSpeciality": 2,
+            "idgroup": 1,
+            "idUser": "annick.lassus@univ-lr.fr"
+        },
+        {
+            "id": 3,
+            "tag": "IA",
+            "goal": "Faire un robot post-apocalyptique",
+            "dateStart": "12/01/2021",
+            "dateEnd": "12/01/2021",
+            "hourStart": "08:00",
+            "hourEnd": "12:00",
+            "idType": 1,
+            "idSpeciality": 3,
+            "idgroup": 2,
+            "idUser": "cyrille.suire@univ-lr.fr"
+        },
+        {
+            "id": 4,
+            "tag": "Agile",
+            "goal": "Pouvoir intégrer le concours : Post-it Master",
+            "dateStart": "12/01/2021",
+            "dateEnd": "12/01/2021",
+            "hourStart": "13:30",
+            "hourEnd": "16:30",
+            "idType": 1,
+            "idSpeciality": 4,
+            "idgroup": 1,
+            "idUser": "annick.lassus@univ-lr.fr"
+        },
+        {
+            "id": 5,
+            "tag": "Android",
+            "goal": "Développer la prochaine version IOS",
+            "dateStart": "13/01/2021",
+            "dateEnd": "13/01/2021",
+            "hourStart": "8:30",
+            "hourEnd": "17:00",
+            "idType": 2,
+            "idSpeciality": 5,
+            "idgroup": 2,
+            "idUser": "cyrille.suire@univ-lr.fr"
+        },
+        {
+            "id": 6,
+            "tag": "IA",
+            "goal": "Développer une IA qui va nous sauver du robot post-apocalyptique",
+            "dateStart": "14/01/2021",
+            "dateEnd": "14/01/2021",
+            "hourStart": "14:00",
+            "hourEnd": "17:00",
+            "idType": 2,
+            "idSpeciality": 3,
+            "idgroup": 2,
+            "idUser": "cyrille.suire@univ-lr.fr"
+        },
+        {
+            "id": 7,
+            "tag": "Divers",
+            "goal": "S'alléger les épaules avant le week-end",
+            "dateStart": "15/01/2021",
+            "dateEnd": "15/01/2021",
+            "hourStart": "9:00",
+            "hourEnd": "12:00",
+            "idType": 1,
+            "idSpeciality": 2,
+            "idgroup": 1,
+            "idUser": "annick.lassus@univ-lr.fr"
+        },
+        {
+            "id": 8,
+            "tag": "Divers",
+            "goal": "S'alléger les épaules avant le week-end",
+            "dateStart": "18/01/2021",
+            "dateEnd": "18/01/2021",
+            "hourStart": "9:00",
+            "hourEnd": "12:00",
+            "idType": 1,
+            "idSpeciality": 2,
+            "idgroup": 1,
+            "idUser": "annick.lassus@univ-lr.fr"
+        },
+        {
+            "id": 9,
+            "tag": "Agile",
+            "goal": "Pouvoir intégrer le concours : Post-it Master",
+            "dateStart": "18/01/2021",
+            "dateEnd": "18/01/2021",
+            "hourStart": "13:30",
+            "hourEnd": "16:30",
+            "idType": 1,
+            "idSpeciality": 4,
+            "idgroup": 1,
+            "idUser": "annick.lassus@univ-lr.fr"
+        },
+        {
+            "id": 10,
+            "tag": "IA",
+            "goal": "Faire un robot post-apocalyptique",
+            "dateStart": "19/01/2021",
+            "dateEnd": "19/01/2021",
+            "hourStart": "08:00",
+            "hourEnd": "12:00",
+            "idType": 1,
+            "idSpeciality": 3,
+            "idgroup": 2,
+            "idUser": "cyrille.suire@univ-lr.fr"
+        },
+        {
+            "id": 11,
+            "tag": "Angl",
+            "goal": "Pratiquer l'anglais",
+            "dateStart": "20/01/2021",
+            "dateEnd": "20/01/2021",
+            "hourStart": "8:30",
+            "hourEnd": "11:30",
+            "idType": 1,
+            "idSpeciality": 1,
+            "idgroup": 1,
+            "idUser": "cyrille.suire@univ-lr.fr"
+        },
+        {
+            "id": 12,
+            "tag": "Android",
+            "goal": "Développer la prochaine version IOS",
+            "dateStart": "20/01/2021",
+            "dateEnd": "20/01/2021",
+            "hourStart": "14:30",
+            "hourEnd": "17:00",
+            "idType": 2,
+            "idSpeciality": 5,
+            "idgroup": 2,
+            "idUser": "cyrille.suire@univ-lr.fr"
+        },
+        {
+            "id": 13,
+            "tag": "IA",
+            "goal": "Développer une IA qui va nous sauver du robot post-apocalyptique",
+            "dateStart": "21/01/2021",
+            "dateEnd": "21/01/2021",
+            "hourStart": "14:00",
+            "hourEnd": "15:00",
+            "idType": 2,
+            "idSpeciality": 3,
+            "idgroup": 2,
+            "idUser": "cyrille.suire@univ-lr.fr"
+        },
+        {
+            "id": 14,
+            "tag": "Divers",
+            "goal": "Profiter du temps libre pour se farcir la rondelle au soleil",
+            "dateStart": "11/01/2021",
+            "dateEnd": "11/01/2021",
+            "hourStart": "15:00",
+            "hourEnd": "17:30",
+            "idType": 2,
+            "idSpeciality": 2,
+            "idgroup": 1,
+            "idUser": "annick.lassus@univ-lr.fr"
+        }
+    ],
+    "toTakePart": [
+        {
+            "idGroup": 1,
+            "idUser": "nathan.gautier@etudiant.univ-lr.fr"
+        },
+        {
+            "idGroup": 1,
+            "idUser": "alexandre.girard@etudiant.univ-lr.fr"
+        },
+        {
+            "idGroup": 1,
+            "idUser": "jonathan.duplaix@etudiant.univ-lr.fr"
+        },
+        {
+            "idGroup": 1,
+            "idUser": "maxime.leriche@etudiant.univ-lr.fr"
+        },
+        {
+            "idGroup": 1,
+            "idUser": "dylan.rambaud@etudiant.univ-lr.fr"
+        },
+        {
+            "idGroup": 2,
+            "idUser": "jonathan.duplaix@etudiant.univ-lr.fr"
+        },
+        {
+            "idGroup": 3,
+            "idUser": "dylan.rambaud@etudiant.univ-lr.fr"
+        }
+    ],
+    "toBelong": [
+        {
+            "idActivity": 1,
+            "idLearningItem": 2,
+            "idSkill": 10
+        },
+        {
+            "idActivity": 1,
+            "idLearningItem": 3,
+            "idSkill": 10
+        },
+        {
+            "idActivity": 1,
+            "idLearningItem": 1,
+            "idSkill": 11
+        },
+        {
+            "idActivity": 2,
+            "idLearningItem": 2,
+            "idSkill": 10
+        },
+        {
+            "idActivity": 2,
+            "idLearningItem": 3,
+            "idSkill": 10
+        },
+        {
+            "idActivity": 2,
+            "idLearningItem": 1,
+            "idSkill": 11
+        },
+        {
+            "idActivity": 2,
+            "idLearningItem": 2,
+            "idSkill": 11
+        },
+        {
+            "idActivity": 3,
+            "idLearningItem": 2,
+            "idSkill": 10
+        },
+        {
+            "idActivity": 3,
+            "idLearningItem": 3,
+            "idSkill": 10
+        },
+        {
+            "idActivity": 3,
+            "idLearningItem": 1,
+            "idSkill": 11
+        },
+        {
+            "idActivity": 4,
+            "idLearningItem": 2,
+            "idSkill": 10
+        },
+        {
+            "idActivity": 4,
+            "idLearningItem": 3,
+            "idSkill": 10
+        },
+        {
+            "idActivity": 4,
+            "idLearningItem": 1,
+            "idSkill": 11
+        },
+        {
+            "idActivity": 4,
+            "idLearningItem": 2,
+            "idSkill": 11
+        },
+        {
+            "idActivity": 5,
+            "idLearningItem": 2,
+            "idSkill": 10
+        },
+        {
+            "idActivity": 5,
+            "idLearningItem": 3,
+            "idSkill": 10
+        },
+        {
+            "idActivity": 5,
+            "idLearningItem": 1,
+            "idSkill": 11
+        },
+        {
+            "idActivity": 6,
+            "idLearningItem": 2,
+            "idSkill": 10
+        },
+        {
+            "idActivity": 6,
+            "idLearningItem": 1,
+            "idSkill": 11
+        },
+        {
+            "idActivity": 7,
+            "idLearningItem": 2,
+            "idSkill": 10
+        },
+        {
+            "idActivity": 7,
+            "idLearningItem": 3,
+            "idSkill": 10
+        },
+        {
+            "idActivity": 7,
+            "idLearningItem": 1,
+            "idSkill": 11
+        },
+        {
+            "idActivity": 7,
+            "idLearningItem": 2,
+            "idSkill": 11
+        },
+        {
+            "idActivity": 8,
+            "idLearningItem": 1,
+            "idSkill": 10
+        },
+        {
+            "idActivity": 8,
+            "idLearningItem": 2,
+            "idSkill": 10
+        },
+        {
+            "idActivity": 9,
+            "idLearningItem": 3,
+            "idSkill": 10
+        },
+        {
+            "idActivity": 10,
+            "idLearningItem": 1,
+            "idSkill": 11
+        },
+        {
+            "idActivity": 11,
+            "idLearningItem": 3,
+            "idSkill": 10
+        },
+        {
+            "idActivity": 12,
+            "idLearningItem": 2,
+            "idSkill": 11
+        },
+        {
+            "idActivity": 13,
+            "idLearningItem": 1,
+            "idSkill": 12
+        },
+        {
+            "idActivity": 14,
+            "idLearningItem": 2,
+            "idSkill": 11
+        },
+        {
+            "idActivity": 14,
+            "idLearningItem": 3,
+            "idSkill": 10
+        }
+    ],
+    "learningStatus": [
+        {
+            "idActivity": 1,
+            "idUser": "nathan.gautier@etudiant.univ-lr.fr",
+            "idLearningItem": 1,
+            "idSkill": 11,
+            "comment": "mouais",
+            "status": -1
+        },
+        {
+            "idActivity": 1,
+            "idUser": "alexandre.girard@etudiant.univ-lr.fr",
+            "idLearningItem": 3,
+            "idSkill": 10,
+            "comment": "ez",
+            "status": 2
+        },
+        {
+            "idActivity": 1,
+            "idUser": "jonathan.duplaix@etudiant.univ-lr.fr",
+            "idLearningItem": 2,
+            "idSkill": 10,
+            "comment": "c'est chaud là",
+            "status": -2
+        },
+        {
+            "idActivity": 1,
+            "idUser": "maxime.leriche@etudiant.univ-lr.fr",
+            "idLearningItem": 2,
+            "idSkill": 11,
+            "comment": "j'ai tout foiré",
+            "status": 2
+        },
+        {
+            "idActivity": 1,
+            "idUser": "dylan.rambaud@etudiant.univ-lr.fr",
+            "idLearningItem": 3,
+            "idSkill": 10,
+            "comment": "c'est ok pour moi",
+            "status": 1
+        },
+        {
+            "idActivity": 13,
+            "idUser": "nathan.gautier@etudiant.univ-lr.fr",
+            "idLearningItem": 1,
+            "idSkill": 12,
+            "comment": "je suis juste trop fort",
+            "status": 2
+        }
+    ]
+}
